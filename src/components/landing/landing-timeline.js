@@ -46,7 +46,7 @@ class LandingTimeline extends Component {
 						<u>Node.js </u> and a dashboard user interface with <u> React</u> that tracks user transaction.
 					</Text>
 
-					<div style={{ display: 'flex', justifyContent: 'space-evenly', marginTop: 10, overflow: 'scroll' }}>
+					<div style={{ display: 'flex', justifyContent: 'space-evenly', marginTop: 10, overflow: 'auto' }}>
 						<Button variant="dark" small disabled>
 							Node.js
 						</Button>
@@ -73,7 +73,7 @@ class LandingTimeline extends Component {
 						front end team in late 2019.
 					</Text>
 
-					<div style={{ display: 'flex', marginTop: 10, justifyContent: 'space-evenly', overflow: 'scroll' }}>
+					<div style={{ display: 'flex', marginTop: 10, justifyContent: 'space-evenly', overflow: 'auto' }}>
 						<Button variant="dark" small disabled>
 							Node.js
 						</Button>
@@ -101,7 +101,7 @@ class LandingTimeline extends Component {
 
 					<div
 						className="technologies-tab"
-						style={{ display: 'flex', overflow: 'scroll', marginTop: 10, justifyContent: 'space-evenly' }}
+						style={{ display: 'flex', overflow: 'auto', marginTop: 10, justifyContent: 'space-evenly' }}
 					>
 						<Button variant="dark" small disabled>
 							Vue.js
@@ -133,7 +133,7 @@ class LandingTimeline extends Component {
 						delievery application where users can place orders, accept orders and track live drone delivery.
 					</Text>
 
-					<div style={{ display: 'flex', marginTop: 10, justifyContent: 'space-evenly', overflow: 'scroll' }}>
+					<div style={{ display: 'flex', marginTop: 10, justifyContent: 'space-evenly', overflow: 'auto' }}>
 						<Button variant="dark" small disabled>
 							React-Native
 						</Button>
