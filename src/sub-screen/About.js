@@ -21,7 +21,7 @@ class About extends Component {
 		return (
 			<div className="container" style={{ marginTop: '60px' }}>
 				<center>
-					<IntroText color={theme.color}>My mini engineering journey </IntroText>{' '}
+					<IntroText color={theme.color}>About me: </IntroText>{' '}
 				</center>
 				<br /> <br />
 				<LandingTimeline theme={theme} />
