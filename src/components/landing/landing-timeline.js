@@ -23,8 +23,7 @@ class LandingTimeline extends Component {
 					iconStyle={{ background: '#486445', color: '#486445' }}
 				>
 					<Text color={theme.color} size="16px">
-						I learned to code for the first time, and wrote my first complete project which was a music player android
-						app.
+						Wrote my first Hello world in Java. My first ever complete project which was a music player android app.
 					</Text>
 
 					<div style={{ marginTop: 10 }}>
@@ -43,7 +42,7 @@ class LandingTimeline extends Component {
 				>
 					<Text color={theme.color} size="16px">
 						I interned at a small startup team at <u>Yeti</u>, where I built an analytics micro service with{' '}
-						<u>Node.js </u> and a dashboard user interface with <u> React</u> that tracks user transaction.
+						<u>Node.js </u> and a loyalty program web dashboard with <u> React</u> that tracks user transaction.
 					</Text>
 
 					<div style={{ display: 'flex', justifyContent: 'space-evenly', marginTop: 10, overflow: 'auto' }}>
@@ -69,13 +68,23 @@ class LandingTimeline extends Component {
 					<Text color={theme.color} size="16px">
 						I graduated my undergrad from <u>Caldwell University </u> in May, and I started working as a software
 						engineer intern at
-						<u>ANRA Technologies</u>, where I built multiple RESTful micro services with Node.js. I also joined the
+						&nbsp; <u>ANRA Technologies.</u>
+					</Text>
+
+					<br />
+
+					<Text color={theme.color} size="16px">
+						I built multiple RESTful micro services with Node.js. I also joined the
 						front end team in late 2019.
 					</Text>
 
 					<div style={{ display: 'flex', marginTop: 10, justifyContent: 'space-evenly', overflow: 'auto' }}>
 						<Button variant="dark" small disabled>
 							Node.js
+						</Button>
+
+						<Button variant="dark" small disabled>
+							Vue.js
 						</Button>
 
 						<Button variant="dark" small disabled>
@@ -89,16 +98,21 @@ class LandingTimeline extends Component {
 
 				<VerticalTimelineElement
 					className="vertical-timeline-element--education"
-					contentStyle={{ background: `${theme.journeyBlockFour}`, color: `${theme.color}` }}
+					contentStyle={{ background: `${theme.journeyBlockFive}`, color: `${theme.color}` }}
 					contentArrowStyle={{ borderRight: '7px solid  #48788C' }}
 					date="2020"
 					iconStyle={{ background: '#48788C', color: '#48788C' }}
 				>
 					<Text color={theme.color} size="16px">
-						Now my full time role at <u> ANRA Technologies</u>, I started to worked closely with the front end team. I
-						led a team of 4 engineers to the complete migration of the front end codebase from aurelia.js to vue.js.
-					</Text>
+					Started my FT role at <u> ANRA Technologies</u> where I worked closely with the front end team. I
+						led a team of 4 engineers in the complete migration of the front end codebase from Aurelia.js to Vue.js.
 
+					</Text>
+					<br />
+
+					<Text color={theme.color} size="16px">
+						Optimize user experiece, reduced page load by 40%, and refined the live drone tracking portal that increased scalability by 3x.
+					</Text>
 					<div
 						className="technologies-tab"
 						style={{ display: 'flex', overflow: 'auto', marginTop: 10, justifyContent: 'space-evenly' }}
@@ -116,21 +130,22 @@ class LandingTimeline extends Component {
 							MQTT
 						</Button>
 
-						<Button variant="dark" small disabled>
-							AWS
-						</Button>
+						
 					</div>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
 					className="vertical-timeline-element--education"
-					contentStyle={{ background: `${theme.journeyBlockFive}`, color: `${theme.color}` }}
+					contentStyle={{ background: `${theme.journeyBlockFour}`, color: `${theme.color}` }}
+
 					contentArrowStyle={{ borderRight: '7px solid  #0F2935' }}
 					date="2021"
 					iconStyle={{ background: '#0F2935', color: '#0F2935' }}
 				>
 					<Text color={theme.color} size="16px">
-						I'm currently working full-stack on building and implemeting a beta version of an scrollnomous drone
-						delievery application where users can place orders, accept orders and track live drone delivery.
+					Led the technical team to build a beta version of a drone delivery application which was launched as the &nbsp;
+					</Text>
+					<Text color={theme.color} size="16px" bold>
+					<a target="_blank" href="https://www.anratechnologies.com/home/news/anra-technologies-and-swiggy-make-history-by-launching-first-end-to-end-bvlos-drone-delivery-trials-in-india/">first ever end-to-end BVLOS Drone Delivery Trials in India</a>
 					</Text>
 
 					<div style={{ display: 'flex', marginTop: 10, justifyContent: 'space-evenly', overflow: 'auto' }}>
@@ -138,13 +153,13 @@ class LandingTimeline extends Component {
 							React-Native
 						</Button>
 						<Button variant="dark" small disabled>
-							Java
+							Spring
 						</Button>
 						<Button variant="dark" small disabled>
-							C#
+							Kafka
 						</Button>
 						<Button variant="dark" small disabled>
-							PostgreSQL
+							Redis
 						</Button>
 					</div>
 				</VerticalTimelineElement>
